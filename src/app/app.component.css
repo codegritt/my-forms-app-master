@@ -1,4 +1,6 @@
 .container {
     margin-top: 100px;
   }
-  
+  input.ng-invalid{
+    border: solid red;
+  }
