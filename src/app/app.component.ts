@@ -7,10 +7,12 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  suggestUserName() {
-    const suggestedName = 'Superuser';
-  }
+  genders=['male,'female'];
+
+  // suggestUserName() {
+  //   const suggestedName = 'Superuser';
+  // }
   onSubmit(form:NgForm){
-    console.log(form);
+    console.log('Submitted');
   }
 }
